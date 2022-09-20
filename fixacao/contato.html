@@ -10,13 +10,26 @@
 </head>
 
 <body>
-    <div class="um">
+    <header class="um">
         <h1><a href="./index.html">Header</a></h1>
-    </div>
-    <div class="dois">
+    </header>
+    <main class="dois">
+        <form>
+            <label for="name">Nome (4 a 8 characteres):</label>
+            <input type="text" id="name" name="name" required
+             minlength="4" maxlength="8" size="10">
+            
+            <label for="telefone">Telefone ( 12 characteres):</label>
+            <input type="text" id="telefone" name="telefone" required
+             minlength="4" maxlength="8" size="10">
         
-    </div>
-    <div class="seis">Footer</div>
+            <label for="name">Noticia (Sem limite de characteres):</label>
+            <input type="text" id="noticia" name="noticia" required
+             minlength="4" maxlength="8" size="10">
+            <button type="Submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="seis">Footer</footer>
 
 </body>
 
